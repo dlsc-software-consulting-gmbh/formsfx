@@ -1,4 +1,5 @@
-[![JFXCentral](https://img.shields.io/badge/Find_me_on-JFXCentral-blue?logo=googlechrome&logoColor=white)](https://www.jfx-central.com/libraries/formsfx)
+
+<!--- 
 
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=dlsc-software-consulting-gmbh_FormsFX&metric=bugs)](https://sonarcloud.io/dashboard?id=dlsc-software-consulting-gmbh_afterburner.fx)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=dlsc-software-consulting-gmbh_FormsFX&metric=code_smells)](https://sonarcloud.io/dashboard?id=dlsc-software-consulting-gmbh_afterburner.fx)
@@ -8,29 +9,45 @@
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=dlsc-software-consulting-gmbh_FormsFX&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=dlsc-software-consulting-gmbh_afterburner.fx)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=dlsc-software-consulting-gmbh_FormsFX&metric=security_rating)](https://sonarcloud.io/dashboard?id=dlsc-software-consulting-gmbh_afterburner.fx)
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=dlsc-software-consulting-gmbh_FormsFX&metric=sqale_index)](https://sonarcloud.io/dashboard?id=dlsc-software-consulting-gmbh_afterburner.fx)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=dlsc-software-consulting-gmbh_FormsFX&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=dlsc-software-consulting-gmbh_afterburner.fx)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=dlsc-software-consulting-gmbh_FormsFX&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=dlsc-software-consulting-gmbh_afterburner.fx) 
+[ ![Download](https://api.bintray.com/packages/dlsc-oss/repository/FormsFX/images/download.svg) ](https://bintray.com/dlsc-oss/repository/FormsFX/_latestVersion)
+[![Build Status](https://travis-ci.org/dlemmermann/formsfx.svg?branch=master)](https://travis-ci.org/dlemmermann/formsfx) 
+
+--->
 
 # FormsFX
 **Forms for business application made easy. Creating forms in Java has never been this easy!**
 
-[ ![Download](https://api.bintray.com/packages/dlsc-oss/repository/FormsFX/images/download.svg) ](https://bintray.com/dlsc-oss/repository/FormsFX/_latestVersion)
-[![Build Status](https://travis-ci.org/dlemmermann/formsfx.svg?branch=master)](https://travis-ci.org/dlemmermann/formsfx)
+[![JFXCentral](https://img.shields.io/badge/Find_me_on-JFXCentral-blue?logo=googlechrome&logoColor=white)](https://www.jfx-central.com/libraries/formsfx)
+
+## What is FormsFX?
+
+Creating forms in JavaFX is a tedious and very error-prone task. FormsFX is a framework which solves this problem. It enables the developer to create forms with ease and creates well-designed and user-friendly forms by default. FormsFX offers a fluent API that is very easy to understand and reduces the amount of coding needed. It creates all the necessary bindings for the properties and *it just works*.
+
+## Advantages over other frameworks!
+
+- **Less error-prone**
+- **Less code needed**
+- **Easy to learn**
+- **Easy to understand**
+- **Easy to extend**
 
 ## Maven
 
 To use this framework as part of your Maven build simply add the following dependency to your pom.xml file.
 
+
+
 ```XML
 <dependency>
-  <groupId>com.dlsc.formsfx</groupId>
-  <artifactId>formsfx-core</artifactId>
-  <version>11.3.2</version>
+    <groupId>com.dlsc.formsfx</groupId>
+    <artifactId>formsfx-core</artifactId>
+    <version>11.6.0</version>
 </dependency>
 ```
 
-## What is FormsFX?
-
-Creating forms in JavaFX is a tedious and very error-prone task. FormsFX is a framework which solves this problem. It enables the developer to create forms with ease and creates well-designed and user-friendly forms by default. FormsFX offers a fluent API that is very easy to understand and reduces the amount of coding needed. It creates all the necessary bindings for the properties and *it just works*.
+Maven central repository: <br>
+https://central.sonatype.com/artifact/com.dlsc.formsfx/formsfx-core/overview
 
 ## Main Features
 
@@ -89,8 +106,6 @@ Option | Description
 
 
 The following table shows how to create different fields and how they look by default:
-
-String Control
 
 <table>
   <tbody>
@@ -279,15 +294,7 @@ All fields are validated whenever end users edit the contained data. FormsFX off
 | `SelectionLengthValidator` | Define a length interval which is considered valid. This range can be limited in either one direction or in both directions. |
 | `StringLengthValidator` | Define a length interval which is considered valid. This range can be limited in either one direction or in both directions. |
 
-## Advantages
-
-- Less error-prone
-- Less code needed
-- Easy to learn
-- Easy to understand
-- Easy to extend
 
 # Documentation
-
-- [Javadocs](http://dlsc.com/wp-content/html/formsfx/apidocs/)
-- [Report](./docs/Project%20Report.pdf)
+- ### [Javadocs](http://dlsc.com/wp-content/html/formsfx/apidocs/)
+- ### [Report](./docs/Project%20Report.pdf)
